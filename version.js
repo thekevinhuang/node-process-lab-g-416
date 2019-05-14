@@ -1,1 +1,5 @@
-module.exports = global.process.version
+function exporter() {
+  return global.process.version
+}
+
+module.exports = exporter
