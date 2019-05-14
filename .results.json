@@ -1,0 +1,84 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2019-05-14T03:06:19.791Z",
+    "end": "2019-05-14T03:06:19.810Z",
+    "duration": 19
+  },
+  "tests": [
+    {
+      "title": "must have version v5.6.0",
+      "fullTitle": "node must have version v5.6.0",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'v8.16.0' to equal 'v5.6.0'",
+        "showDiff": true,
+        "actual": "v8.16.0",
+        "expected": "v5.6.0",
+        "stack": "AssertionError: expected 'v8.16.0' to equal 'v5.6.0'\n    at Context.<anonymous> (test/index.js:11:37)"
+      }
+    },
+    {
+      "title": "must be darwin,linux",
+      "fullTitle": "platform must be darwin,linux",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: require(...) is not a function\n    at Context.<anonymous> (test/index.js:18:70)",
+        "message": "require(...) is not a function"
+      }
+    },
+    {
+      "title": "must be qa",
+      "fullTitle": "env var NODE_ENV must be qa",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: require(...) is not a function\n    at Context.<anonymous> (test/index.js:27:63)",
+        "message": "require(...) is not a function"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must have version v5.6.0",
+      "fullTitle": "node must have version v5.6.0",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'v8.16.0' to equal 'v5.6.0'",
+        "showDiff": true,
+        "actual": "v8.16.0",
+        "expected": "v5.6.0",
+        "stack": "AssertionError: expected 'v8.16.0' to equal 'v5.6.0'\n    at Context.<anonymous> (test/index.js:11:37)"
+      }
+    },
+    {
+      "title": "must be darwin,linux",
+      "fullTitle": "platform must be darwin,linux",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: require(...) is not a function\n    at Context.<anonymous> (test/index.js:18:70)",
+        "message": "require(...) is not a function"
+      }
+    },
+    {
+      "title": "must be qa",
+      "fullTitle": "env var NODE_ENV must be qa",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: require(...) is not a function\n    at Context.<anonymous> (test/index.js:27:63)",
+        "message": "require(...) is not a function"
+      }
+    }
+  ],
+  "passes": []
+}
