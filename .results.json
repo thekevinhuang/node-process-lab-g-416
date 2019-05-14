@@ -1,0 +1,71 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-05-14T03:17:34.529Z",
+    "end": "2019-05-14T03:17:34.545Z",
+    "duration": 16
+  },
+  "tests": [
+    {
+      "title": "must have version v5.6.0",
+      "fullTitle": "node must have version v5.6.0",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "must be darwin,linux",
+      "fullTitle": "platform must be darwin,linux",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "must be qa",
+      "fullTitle": "env var NODE_ENV must be qa",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'qa'",
+        "showDiff": true,
+        "expected": "qa",
+        "stack": "AssertionError: expected undefined to equal 'qa'\n    at Context.<anonymous> (test/index.js:28:26)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must be qa",
+      "fullTitle": "env var NODE_ENV must be qa",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'qa'",
+        "showDiff": true,
+        "expected": "qa",
+        "stack": "AssertionError: expected undefined to equal 'qa'\n    at Context.<anonymous> (test/index.js:28:26)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "must have version v5.6.0",
+      "fullTitle": "node must have version v5.6.0",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "must be darwin,linux",
+      "fullTitle": "platform must be darwin,linux",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
